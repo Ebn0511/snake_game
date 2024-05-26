@@ -21,4 +21,3 @@ Para sair do jogo, pressione a tecla 'Q'.
 - screen.h
 - keyboard.h
 - timer.h
-- main.h
