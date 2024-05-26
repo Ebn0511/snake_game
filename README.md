@@ -7,7 +7,7 @@ Certifique-se de ter um compilador C instalado(GCC). Compile o codigo-fonte com 
 gcc -o snake_game main.c screen.c keyboard.c timer.c
 Execução: ./snake_game
 ## Controles
-Use as teclas 'W','A','S' e 'D'. Onde W movimenta a cobra pra cima, 'A' movimenta a cobra pra esquerda, 'S' movimenta a cobra pra baixo e 'D' movimenta a cobra pra direita.
+Use as teclas 'W','A','S' e 'D'. Onde 'W' movimenta a cobra pra cima, 'A' movimenta a cobra pra esquerda, 'S' movimenta a cobra pra baixo e 'D' movimenta a cobra pra direita.
 Para sair do jogo, pressione a tecla 'Q'.
 ## Funcionalidades
 - A cobra inicia no centro da tela.
