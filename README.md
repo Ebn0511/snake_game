@@ -15,10 +15,10 @@ Para sair do jogo, pressione a tecla 'Q'.
 - A cobra cresce ao comer o coração.
 - O jogo termina se a cobra colidir consigo mesma.
 ## Bibliotecas
--stdio.h
--stdlib.h
--string.h
--screen.h
--keyboard.h
--timer.h
--main.h
+- stdio.h
+- stdlib.h
+- string.h
+- screen.h
+- keyboard.h
+- timer.h
+- main.h
