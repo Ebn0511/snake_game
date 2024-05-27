@@ -57,7 +57,7 @@ void generateFood() {
 void initializeGame() {
     screenHideCursor();
     keyboardInit();
-    timerInit(55);  // Set the timer to 55ms updates
+    timerInit(55);
     loadScores();
 
     cobra.tamanho = 1;
