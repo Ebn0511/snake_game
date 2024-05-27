@@ -36,6 +36,7 @@ void generateFood();
 void saveScore(int score);
 void loadScores();
 void displayScores();
+void drawBorders();
 
 void generateFood() {
     int valid;
@@ -110,7 +111,7 @@ void updateGame() {
         cobra.tamanho++;
         cobra.posicao = (Coordenada *)realloc(cobra.posicao, cobra.tamanho * sizeof(Coordenada));
         if (cobra.posicao == NULL) {
-            perror("Erro ao realocar memória");
+            printf("Erro ao realocar memória");
             exit(EXIT_FAILURE);
         }
         generateFood();
