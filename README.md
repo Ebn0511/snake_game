@@ -1,7 +1,7 @@
 # SNAKE_GAME
 
 ## Introdução
-Este é um Jogo bastante conhecido e jogado por diversas pessoas pelo mundo, conhecido no brasil como jogo da cobrinha. Por conta de sua alta jogabilidade, decidimos faze-lo e encontramos algumas dificuldades.Dentro das dificuldades, tivemos como principais, a implementação do movimento da cobra e a construção das bordas do jogo.
+Este é um Jogo bastante conhecido e jogado por diversas pessoas pelo mundo, conhecido no brasil como jogo da cobrinha, por conta de sua alta jogabilidade e de todos os integrantes terem uma boa lembrança com esse jogo, decidimos faze-lo.
 ## Compilação
 Certifique-se de ter um compilador C instalado(GCC). Compile o codigo-fonte com o seguinte comando:
 gcc -o snake_game main.c screen.c keyboard.c timer.c
