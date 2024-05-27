@@ -21,3 +21,5 @@ Para sair do jogo, pressione a tecla 'Q'.
 - screen.h
 - keyboard.h
 - timer.h
+## Funções do jogo
+![Captura de tela de 2024-05-26 23-06-23](https://github.com/Ebn0511/snake_game/assets/133618722/93b7746c-bcfc-45ab-b64d-9bd59f3b3107)
