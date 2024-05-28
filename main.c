@@ -100,7 +100,6 @@ void drawGame() {
 
     screenUpdate();
 }
-
 void updateGame() {
     if (fimDoJogo == 1) return;
 
@@ -145,14 +144,6 @@ void updateGame() {
 }
 
 
-    screenGotoxy(newX, newY);
-    printf("▓");
-    screenUpdate();
-
-    screenGotoxy(food.posicao.x, food.posicao.y);
-    printf("❤");
-    screenUpdate();
-}
 
 void saveScore(int score) {
     int i;
