@@ -120,9 +120,12 @@ void updateGame() {
         printf(" ");
     }
 
-    for (int i = cobra.tamanho - 1; i > 0; i--) {
-        cobra.posicao[i] = cobra.posicao[i - 1];
+    if (cobra.tamanho > 1) {
+        for (int i = cobra.tamanho - 1; i > 0; i--) {
+            cobra.posicao[i] = cobra.posicao[i - 1];
+        }
     }
+
     cobra.posicao[0].x = newX;
     cobra.posicao[0].y = newY;
 
@@ -131,6 +134,16 @@ void updateGame() {
             fimDoJogo = 1;
         }
     }
+
+    screenGotoxy(newX, newY);
+    printf("▓");
+    screenUpdate();
+
+    screenGotoxy(food.posicao.x, food.posicao.y);
+    printf("❤");
+    screenUpdate();
+}
+
 
     screenGotoxy(newX, newY);
     printf("▓");
