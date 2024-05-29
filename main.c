@@ -133,16 +133,7 @@ void updateGame() {
             fimDoJogo = 1;
         }
     }
-
-    screenGotoxy(newX, newY);
-    printf("▓");
-
-    screenGotoxy(food.posicao.x, food.posicao.y);
-    printf("❤");
-    screenUpdate();
 }
-
-
 
 void saveScore(int score) {
     int i;
