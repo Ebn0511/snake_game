@@ -136,7 +136,6 @@ void updateGame() {
 
     screenGotoxy(newX, newY);
     printf("▓");
-    screenUpdate();
 
     screenGotoxy(food.posicao.x, food.posicao.y);
     printf("❤");
