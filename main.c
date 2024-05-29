@@ -150,7 +150,7 @@ void saveScore(int score) {
         scores[i] = score;
 
         FILE* file = fopen("scores.txt", "w");
-        if (file != NULL) {
+        if (!file) {
             for (int k = 0; k < MAX_SCORES; k++) {
                 fprintf(file, "%d\n", scores[k]);
             }
