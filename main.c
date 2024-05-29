@@ -134,7 +134,6 @@ void updateGame() {
         }
     }
 }
-
 void saveScore(int score) {
     int i;
     for (i = 0; i < MAX_SCORES; i++) {
@@ -150,7 +149,7 @@ void saveScore(int score) {
         scores[i] = score;
 
         FILE* file = fopen("scores.txt", "w");
-        if (!file) {
+        if (file != NULL) {
             for (int k = 0; k < MAX_SCORES; k++) {
                 fprintf(file, "%d\n", scores[k]);
             }
@@ -161,7 +160,7 @@ void saveScore(int score) {
 
 void loadScores() {
     FILE* file = fopen("scores.txt", "r");
-    if (file!=NULL) {
+    if (!file) {
         for (int i = 0; i < MAX_SCORES; i++) {
             scores[i] = 0;
         }
@@ -225,6 +224,25 @@ int main() {
     timerDestroy();
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
