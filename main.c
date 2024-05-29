@@ -51,7 +51,7 @@ void generateFood() {
                 break;
             }
         }
-    } while (!valid);
+    } while (valid == 0);
 }
 
 void initializeGame() {
@@ -161,7 +161,7 @@ void saveScore(int score) {
 
 void loadScores() {
     FILE* file = fopen("scores.txt", "r");
-    if (!file) {
+    if (file!=NULL) {
         for (int i = 0; i < MAX_SCORES; i++) {
             scores[i] = 0;
         }
